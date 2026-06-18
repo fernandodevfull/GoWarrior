@@ -1,0 +1,949 @@
+stdio    D         file_stdio.c:107  file_stdio_fopen                 [   0.00000] opening C:\Documentos\c#Udemy\Jogo_c\x64\Debug\allegro5.cfg r
+system   D            wsystem.c:836  maybe_parent_dir                 [   0.00000] Also searching C:\Documentos\c#Udemy\Jogo_c\x64\
+system   D            wsystem.c:891  _al_win_safe_load_library        [   0.00000] PathFindOnPath found: C:\WINDOWS\system32\shcore.dll
+system   D            wsystem.c:797  load_library_at_path             [   0.00000] Calling LoadLibrary C:\WINDOWS\system32\shcore.dll
+system   I            wsystem.c:800  load_library_at_path             [   0.00000] Loaded C:\WINDOWS\system32\shcore.dll
+system   I             system.c:272  al_install_system                [   0.00000] Allegro version: 5.2.11
+system   D            wsystem.c:836  maybe_parent_dir                 [   0.00587] Also searching C:\Documentos\c#Udemy\Jogo_c\x64\
+system   D            wsystem.c:891  _al_win_safe_load_library        [   0.00637] PathFindOnPath found: C:\WINDOWS\system32\d3d9.dll
+system   D            wsystem.c:797  load_library_at_path             [   0.00641] Calling LoadLibrary C:\WINDOWS\system32\d3d9.dll
+system   I            wsystem.c:800  load_library_at_path             [   0.01244] Loaded C:\WINDOWS\system32\d3d9.dll
+system   D            wsystem.c:836  maybe_parent_dir                 [   0.01363] Also searching C:\Documentos\c#Udemy\Jogo_c\x64\
+system   D            wsystem.c:891  _al_win_safe_load_library        [   0.01390] PathFindOnPath found: C:\WINDOWS\system32\d3dx9_43.dll
+system   D            wsystem.c:797  load_library_at_path             [   0.01394] Calling LoadLibrary C:\WINDOWS\system32\d3dx9_43.dll
+system   I            wsystem.c:800  load_library_at_path             [   0.01792] Loaded C:\WINDOWS\system32\d3dx9_43.dll
+d3dx9    I        d3d_d3dx9.cpp:88   _imp_load_d3dx9_module_version   [   0.01800] Module "d3dx9_43.dll" loaded.
+d3d      I         d3d_disp.cpp:730  d3d_init_display                 [   0.07886] Render-to-texture: 1
+d3d      I         d3d_disp.cpp:1865 d3d_create_display_locked        [   0.08112] faux_fullscreen=0
+d3d      D         d3d_disp.cpp:1866 d3d_create_display_locked        [   0.08118] al_display=000001E3EB87EE30
+d3d      D         d3d_disp.cpp:1867 d3d_create_display_locked        [   0.08122] al_display->vt=000001E3EB87BA90
+d3d      I d3d_display_formats.cpp:144  _al_d3d_generate_display_format_list [   0.09353] found 64 format combinations
+display  D   display_settings.c:214  debug_display_settings           [   0.09359] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09363] Score is : 897
+display  D   display_settings.c:214  debug_display_settings           [   0.09365] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09367] Score is : 897
+display  D   display_settings.c:214  debug_display_settings           [   0.09369] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09372] Score is : 897
+display  D   display_settings.c:214  debug_display_settings           [   0.09373] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09376] Score is : 897
+display  D   display_settings.c:214  debug_display_settings           [   0.09378] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09381] Score is : 897
+display  D   display_settings.c:214  debug_display_settings           [   0.09383] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09385] Score is : 897
+display  D   display_settings.c:214  debug_display_settings           [   0.09387] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09396] Score is : 897
+display  D   display_settings.c:214  debug_display_settings           [   0.09398] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09401] Score is : 897
+display  D   display_settings.c:214  debug_display_settings           [   0.09402] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09405] Score is : 897
+display  D   display_settings.c:214  debug_display_settings           [   0.09407] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09409] Score is : 897
+display  D   display_settings.c:214  debug_display_settings           [   0.09411] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09414] Score is : 897
+display  D   display_settings.c:214  debug_display_settings           [   0.09416] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09418] Score is : 897
+display  D   display_settings.c:214  debug_display_settings           [   0.09420] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09423] Score is : 897
+display  D   display_settings.c:214  debug_display_settings           [   0.09424] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09427] Score is : 897
+display  D   display_settings.c:214  debug_display_settings           [   0.09429] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09431] Score is : 897
+display  D   display_settings.c:214  debug_display_settings           [   0.09432] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09435] Score is : 897
+display  D   display_settings.c:214  debug_display_settings           [   0.09437] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09439] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09441] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09443] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09445] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09448] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09450] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09453] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09455] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09458] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09460] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09463] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09465] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09468] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09749] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09756] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09761] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09765] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09767] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09770] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09772] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09774] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09776] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09779] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09781] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09784] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09786] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09789] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09791] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09794] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09796] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09798] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09800] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09803] Score is : 769
+display  D   display_settings.c:214  debug_display_settings           [   0.09805] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09807] Score is : 769
+display  D   display_settings.c:214  debug_display_settings           [   0.09809] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09812] Score is : 769
+display  D   display_settings.c:214  debug_display_settings           [   0.09814] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09816] Score is : 769
+display  D   display_settings.c:214  debug_display_settings           [   0.09818] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09820] Score is : 769
+display  D   display_settings.c:214  debug_display_settings           [   0.09822] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09825] Score is : 769
+display  D   display_settings.c:214  debug_display_settings           [   0.09829] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09832] Score is : 769
+display  D   display_settings.c:214  debug_display_settings           [   0.09833] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09836] Score is : 769
+display  D   display_settings.c:214  debug_display_settings           [   0.09838] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09840] Score is : 769
+display  D   display_settings.c:214  debug_display_settings           [   0.09842] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09844] Score is : 769
+display  D   display_settings.c:214  debug_display_settings           [   0.09846] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09849] Score is : 769
+display  D   display_settings.c:214  debug_display_settings           [   0.09851] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09853] Score is : 769
+display  D   display_settings.c:214  debug_display_settings           [   0.09859] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09866] Score is : 769
+display  D   display_settings.c:214  debug_display_settings           [   0.09869] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09874] Score is : 769
+display  D   display_settings.c:214  debug_display_settings           [   0.09880] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09883] Score is : 769
+display  D   display_settings.c:214  debug_display_settings           [   0.09885] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:529  _al_score_display_settings       [   0.09888] Score is : 769
+display  D   display_settings.c:214  debug_display_settings           [   0.09890] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09893] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09895] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09898] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09900] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09903] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09905] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09908] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09910] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09913] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09915] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09924] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09927] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09930] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09932] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09935] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09937] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09939] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09943] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09945] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09949] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09953] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09960] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09965] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09967] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09970] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09972] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09975] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09979] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09984] Single Buffer requirement not met.
+display  D   display_settings.c:214  debug_display_settings           [   0.09987] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:400  _al_score_display_settings       [   0.09989] Single Buffer requirement not met.
+d3d      D         d3d_disp.cpp:1731 d3d_create_display_internals     [   0.09995] Trying format 0.
+d3d      I         d3d_disp.cpp:1407 d3d_display_thread_proc          [   0.10443] Chose a display format: 23
+d3d      I         d3d_disp.cpp:1476 d3d_display_thread_proc          [   0.10472] Normal window.
+d3d      I         d3d_disp.cpp:838  d3d_create_device                [   0.16538] Using no depth stencil buffer
+d3d      D         d3d_disp.cpp:900  d3d_create_device                [   0.21186] BeginScene succeeded in create_device
+d3d      D         d3d_disp.cpp:908  d3d_create_device                [   0.21192] Success
+d3d      D         d3d_disp.cpp:1757 d3d_create_display_internals     [   0.21235] Resumed after wait.
+d3d      I         d3d_disp.cpp:1790 d3d_create_display_internals     [   0.21241] Format 0 succeeded.
+d3d      D         d3d_disp.cpp:1852 d3d_create_display_internals     [   0.21461] Returning d3d_display: 000001E3EB87EE30
+d3d      D         d3d_disp.cpp:1877 d3d_create_display_locked        [   0.21468] al_display=000001E3EB87EE30
+d3d      D         d3d_disp.cpp:1878 d3d_create_display_locked        [   0.21470] al_display->vt=000001E3EB87BA90
+stdio    D         file_stdio.c:107  file_stdio_fopen                 [   0.21963] opening ./font.ttf rb
+font     D                ttf.c:1003 al_load_ttf_font_stretch_f       [   0.23748] Font ./font.ttf loaded with pixel size 0 x 24.
+font     D                ttf.c:1005 al_load_ttf_font_stretch_f       [   0.23753]     ascent=24.0, descent=-6.0, height=32.0
+dtor     D               dtor.c:196  _al_register_destructor          [   0.23779] added dtor for ttf_font 000001E3F23A7FB0, func 00007FFAFA4A129E
+stdio    D         file_stdio.c:107  file_stdio_fopen                 [   0.23784] opening ./font.ttf rb
+font     D                ttf.c:1003 al_load_ttf_font_stretch_f       [   0.23825] Font ./font.ttf loaded with pixel size 0 x 55.
+font     D                ttf.c:1005 al_load_ttf_font_stretch_f       [   0.23828]     ascent=55.0, descent=-14.0, height=73.0
+dtor     D               dtor.c:196  _al_register_destructor          [   0.23832] added dtor for ttf_font 000001E3F23A8090, func 00007FFAFA4A129E
+stdio    D         file_stdio.c:107  file_stdio_fopen                 [   0.23835] opening ./font.ttf rb
+font     D                ttf.c:1003 al_load_ttf_font_stretch_f       [   0.23873] Font ./font.ttf loaded with pixel size 0 x 32.
+font     D                ttf.c:1005 al_load_ttf_font_stretch_f       [   0.23878]     ascent=32.0, descent=-8.0, height=43.0
+dtor     D               dtor.c:196  _al_register_destructor          [   0.23882] added dtor for ttf_font 000001E3F23A8170, func 00007FFAFA4A129E
+stdio    D         file_stdio.c:107  file_stdio_fopen                 [   0.23887] opening ./font.ttf rb
+font     D                ttf.c:1003 al_load_ttf_font_stretch_f       [   0.23921] Font ./font.ttf loaded with pixel size 0 x 18.
+font     D                ttf.c:1005 al_load_ttf_font_stretch_f       [   0.23924]     ascent=18.0, descent=-5.0, height=24.0
+dtor     D               dtor.c:196  _al_register_destructor          [   0.23927] added dtor for ttf_font 000001E3F23A7920, func 00007FFAFA4A129E
+dtor     D               dtor.c:196  _al_register_destructor          [   0.23930] added dtor for timer 000001E3EB8D0950, func 00007FFAD0041055
+stdio    D         file_stdio.c:107  file_stdio_fopen                 [   0.23934] opening ./knight.png rb
+stdio    D         file_stdio.c:107  file_stdio_fopen                 [   0.24037] opening ./knight.png rb
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.24223] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.24231] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.24233] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.24237] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.24239] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.24241] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.24243] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.24245] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.24246] Fake format
+d3d      D         d3d_disp.cpp:1259 real_choose_bitmap_format        [   0.24248] Alpha doesn't match
+d3d      D         d3d_disp.cpp:1266 real_choose_bitmap_format        [   0.24250] Adapter format is 23
+d3d      D         d3d_disp.cpp:1269 real_choose_bitmap_format        [   0.24252] Found a format
+d3d      I         d3d_disp.cpp:2467 d3d_create_bitmap                [   0.24254] Chose bitmap format 9
+dtor     D               dtor.c:196  _al_register_destructor          [   0.24299] added dtor for bitmap 000001E3ED58CAF0, func 00007FFAD004119A
+stdio    D         file_stdio.c:107  file_stdio_fopen                 [   0.24863] opening ./slime_green.png rb
+stdio    D         file_stdio.c:107  file_stdio_fopen                 [   0.24944] opening ./slime_green.png rb
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.24968] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.24972] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.24974] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.24975] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.24977] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.24979] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.24981] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.24983] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.24985] Fake format
+d3d      D         d3d_disp.cpp:1259 real_choose_bitmap_format        [   0.24986] Alpha doesn't match
+d3d      D         d3d_disp.cpp:1266 real_choose_bitmap_format        [   0.24988] Adapter format is 23
+d3d      D         d3d_disp.cpp:1269 real_choose_bitmap_format        [   0.24990] Found a format
+d3d      I         d3d_disp.cpp:2467 d3d_create_bitmap                [   0.24992] Chose bitmap format 9
+dtor     D               dtor.c:196  _al_register_destructor          [   0.25013] added dtor for bitmap 000001E3ED58CED0, func 00007FFAD004119A
+stdio    D         file_stdio.c:107  file_stdio_fopen                 [   0.25069] opening ./slime_purple.png rb
+stdio    D         file_stdio.c:107  file_stdio_fopen                 [   0.25138] opening ./slime_purple.png rb
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25159] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25162] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25165] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25167] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25168] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25170] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25172] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25174] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25176] Fake format
+d3d      D         d3d_disp.cpp:1259 real_choose_bitmap_format        [   0.25179] Alpha doesn't match
+d3d      D         d3d_disp.cpp:1266 real_choose_bitmap_format        [   0.25181] Adapter format is 23
+d3d      D         d3d_disp.cpp:1269 real_choose_bitmap_format        [   0.25183] Found a format
+d3d      I         d3d_disp.cpp:2467 d3d_create_bitmap                [   0.25185] Chose bitmap format 9
+dtor     D               dtor.c:196  _al_register_destructor          [   0.25205] added dtor for bitmap 000001E3ED58D4A0, func 00007FFAD004119A
+stdio    D         file_stdio.c:107  file_stdio_fopen                 [   0.25249] opening ./coin.png rb
+stdio    D         file_stdio.c:107  file_stdio_fopen                 [   0.25289] opening ./coin.png rb
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25310] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25313] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25315] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25317] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25318] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25320] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25322] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25324] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25325] Fake format
+d3d      D         d3d_disp.cpp:1259 real_choose_bitmap_format        [   0.25328] Alpha doesn't match
+d3d      D         d3d_disp.cpp:1266 real_choose_bitmap_format        [   0.25330] Adapter format is 23
+d3d      D         d3d_disp.cpp:1269 real_choose_bitmap_format        [   0.25332] Found a format
+d3d      I         d3d_disp.cpp:2467 d3d_create_bitmap                [   0.25334] Chose bitmap format 9
+dtor     D               dtor.c:196  _al_register_destructor          [   0.25357] added dtor for bitmap 000001E3F232E1E0, func 00007FFAD004119A
+stdio    D         file_stdio.c:107  file_stdio_fopen                 [   0.25380] opening ./fruit.png rb
+stdio    D         file_stdio.c:107  file_stdio_fopen                 [   0.25436] opening ./fruit.png rb
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25456] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25459] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25461] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25463] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25465] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25467] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25469] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25470] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25472] Fake format
+d3d      D         d3d_disp.cpp:1259 real_choose_bitmap_format        [   0.25474] Alpha doesn't match
+d3d      D         d3d_disp.cpp:1266 real_choose_bitmap_format        [   0.25476] Adapter format is 23
+d3d      D         d3d_disp.cpp:1269 real_choose_bitmap_format        [   0.25478] Found a format
+d3d      I         d3d_disp.cpp:2467 d3d_create_bitmap                [   0.25480] Chose bitmap format 9
+dtor     D               dtor.c:196  _al_register_destructor          [   0.25500] added dtor for bitmap 000001E3F232D260, func 00007FFAD004119A
+stdio    D         file_stdio.c:107  file_stdio_fopen                 [   0.25533] opening ./platforms.png rb
+stdio    D         file_stdio.c:107  file_stdio_fopen                 [   0.25601] opening ./platforms.png rb
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25624] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25627] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25629] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25631] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25633] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25638] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25641] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25643] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25645] Fake format
+d3d      D         d3d_disp.cpp:1259 real_choose_bitmap_format        [   0.25646] Alpha doesn't match
+d3d      D         d3d_disp.cpp:1266 real_choose_bitmap_format        [   0.25648] Adapter format is 23
+d3d      D         d3d_disp.cpp:1269 real_choose_bitmap_format        [   0.25651] Found a format
+d3d      I         d3d_disp.cpp:2467 d3d_create_bitmap                [   0.25653] Chose bitmap format 9
+dtor     D               dtor.c:196  _al_register_destructor          [   0.25672] added dtor for bitmap 000001E3F232DE00, func 00007FFAD004119A
+stdio    D         file_stdio.c:107  file_stdio_fopen                 [   0.25704] opening ./cenario.jpg rb
+stdio    D         file_stdio.c:107  file_stdio_fopen                 [   0.25805] opening ./cenario.jpg rb
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25987] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25992] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25994] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25996] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25997] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.25999] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.26001] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.26003] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.26004] Fake format
+d3d      D         d3d_disp.cpp:1259 real_choose_bitmap_format        [   0.26006] Alpha doesn't match
+d3d      D         d3d_disp.cpp:1266 real_choose_bitmap_format        [   0.26008] Adapter format is 23
+d3d      D         d3d_disp.cpp:1269 real_choose_bitmap_format        [   0.26010] Found a format
+d3d      I         d3d_disp.cpp:2467 d3d_create_bitmap                [   0.26012] Chose bitmap format 9
+dtor     D               dtor.c:196  _al_register_destructor          [   0.26147] added dtor for bitmap 000001E3F232CE80, func 00007FFAD004119A
+stdio    D         file_stdio.c:107  file_stdio_fopen                 [   0.28963] opening ./cenario2.0.jpg rb
+stdio    D         file_stdio.c:107  file_stdio_fopen                 [   0.29059] opening ./cenario2.0.jpg rb
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.29081] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.29084] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.29086] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.29088] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.29090] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.29092] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.29094] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.29096] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.29098] Fake format
+d3d      D         d3d_disp.cpp:1259 real_choose_bitmap_format        [   0.29100] Alpha doesn't match
+d3d      D         d3d_disp.cpp:1266 real_choose_bitmap_format        [   0.29102] Adapter format is 23
+d3d      D         d3d_disp.cpp:1269 real_choose_bitmap_format        [   0.29105] Found a format
+d3d      I         d3d_disp.cpp:2467 d3d_create_bitmap                [   0.29107] Chose bitmap format 9
+dtor     D               dtor.c:196  _al_register_destructor          [   0.29170] added dtor for bitmap 000001E3F232C6C0, func 00007FFAD004119A
+stdio    D         file_stdio.c:107  file_stdio_fopen                 [   0.30403] opening ./Axe2.png rb
+stdio    D         file_stdio.c:107  file_stdio_fopen                 [   0.30448] opening ./Axe2.png rb
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.30470] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.30474] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.30476] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.30477] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.30479] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.30481] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.30483] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.30485] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.30487] Fake format
+d3d      D         d3d_disp.cpp:1259 real_choose_bitmap_format        [   0.30489] Alpha doesn't match
+d3d      D         d3d_disp.cpp:1266 real_choose_bitmap_format        [   0.30491] Adapter format is 23
+d3d      D         d3d_disp.cpp:1269 real_choose_bitmap_format        [   0.30494] Found a format
+d3d      I         d3d_disp.cpp:2467 d3d_create_bitmap                [   0.30496] Chose bitmap format 9
+dtor     D               dtor.c:196  _al_register_destructor          [   0.30520] added dtor for bitmap 000001E3F232CC90, func 00007FFAD004119A
+stdio    D         file_stdio.c:107  file_stdio_fopen                 [   0.30554] opening ./fase2_banner_novo.png rb
+stdio    D         file_stdio.c:107  file_stdio_fopen                 [   0.30632] opening ./fase2_banner_novo.png rb
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.30652] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.30655] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.30657] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.30658] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.30660] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.30662] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.30664] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.30666] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.30668] Fake format
+d3d      D         d3d_disp.cpp:1259 real_choose_bitmap_format        [   0.30669] Alpha doesn't match
+d3d      D         d3d_disp.cpp:1266 real_choose_bitmap_format        [   0.30671] Adapter format is 23
+d3d      D         d3d_disp.cpp:1269 real_choose_bitmap_format        [   0.30673] Found a format
+d3d      I         d3d_disp.cpp:2467 d3d_create_bitmap                [   0.30677] Chose bitmap format 9
+dtor     D               dtor.c:196  _al_register_destructor          [   0.30816] added dtor for bitmap 000001E3F232DA20, func 00007FFAD004119A
+dtor     D               dtor.c:196  _al_register_destructor          [   0.33533] added dtor for queue 000001E3EB9083D0, func 00007FFAD0041CE4
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.37167] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.37171] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.37173] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.37175] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.37177] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.37178] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.37180] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.37182] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.37184] Fake format
+d3d      D         d3d_disp.cpp:1259 real_choose_bitmap_format        [   0.37186] Alpha doesn't match
+d3d      D         d3d_disp.cpp:1266 real_choose_bitmap_format        [   0.37188] Adapter format is 23
+d3d      D         d3d_disp.cpp:1269 real_choose_bitmap_format        [   0.37190] Found a format
+d3d      I         d3d_disp.cpp:2467 d3d_create_bitmap                [   0.37192] Chose bitmap format 9
+font     D                ttf.c:244  alloc_glyph_region               [   0.37353] Glyph 42: 31x48 (32x48)
+font     D                ttf.c:288  alloc_glyph_region               [   0.37358] Locking glyph region: 000001E3F2435C40 0 0 32 48
+font     D                ttf.c:168  unlock_current_page              [   0.38186] Unlocking page: 000001E3F2435C40
+font     D                ttf.c:244  alloc_glyph_region               [   0.38200] Glyph 50: 35x48 (36x48)
+font     D                ttf.c:288  alloc_glyph_region               [   0.38203] Locking glyph region: 000001E3F2435C40 32 0 36 48
+font     D                ttf.c:168  unlock_current_page              [   0.38212] Unlocking page: 000001E3F2435C40
+font     D                ttf.c:504  cache_glyph                      [   0.38217] Glyph 3 has zero size. (pixel mode 2)
+font     D                ttf.c:244  alloc_glyph_region               [   0.38225] Glyph 58: 37x46 (40x48)
+font     D                ttf.c:288  alloc_glyph_region               [   0.38228] Locking glyph region: 000001E3F2435C40 68 0 40 48
+font     D                ttf.c:168  unlock_current_page              [   0.38253] Unlocking page: 000001E3F2435C40
+font     D                ttf.c:244  alloc_glyph_region               [   0.38262] Glyph 36: 37x46 (40x48)
+font     D                ttf.c:288  alloc_glyph_region               [   0.38265] Locking glyph region: 000001E3F2435C40 108 0 40 48
+font     D                ttf.c:168  unlock_current_page              [   0.38271] Unlocking page: 000001E3F2435C40
+font     D                ttf.c:244  alloc_glyph_region               [   0.38279] Glyph 53: 33x46 (36x48)
+font     D                ttf.c:288  alloc_glyph_region               [   0.38281] Locking glyph region: 000001E3F2435C40 148 0 36 48
+font     D                ttf.c:168  unlock_current_page              [   0.38287] Unlocking page: 000001E3F2435C40
+font     D                ttf.c:244  alloc_glyph_region               [   0.38293] Glyph 44: 29x46 (32x48)
+font     D                ttf.c:288  alloc_glyph_region               [   0.38296] Locking glyph region: 000001E3F2435C40 184 0 32 48
+font     D                ttf.c:168  unlock_current_page              [   0.38305] Unlocking page: 000001E3F2435C40
+font     D                ttf.c:244  alloc_glyph_region               [   0.38315] Glyph 4: 13x47 (16x48)
+font     D                ttf.c:288  alloc_glyph_region               [   0.38319] Locking glyph region: 000001E3F2435C40 216 0 16 48
+font     D                ttf.c:168  unlock_current_page              [   0.38326] Unlocking page: 000001E3F2435C40
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.39909] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.39914] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.39916] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.39918] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.39920] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.39921] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.39923] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.39925] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.39927] Fake format
+d3d      D         d3d_disp.cpp:1259 real_choose_bitmap_format        [   0.39929] Alpha doesn't match
+d3d      D         d3d_disp.cpp:1266 real_choose_bitmap_format        [   0.39931] Adapter format is 23
+d3d      D         d3d_disp.cpp:1269 real_choose_bitmap_format        [   0.39933] Found a format
+d3d      I         d3d_disp.cpp:2467 d3d_create_bitmap                [   0.39937] Chose bitmap format 9
+font     D                ttf.c:244  alloc_glyph_region               [   0.40008] Glyph 39: 17x22 (20x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.40014] Locking glyph region: 000001E3F2435860 0 0 20 24
+font     D                ttf.c:168  unlock_current_page              [   0.40570] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.40583] Glyph 76: 15x23 (16x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.40586] Locking glyph region: 000001E3F2435860 20 0 16 24
+font     D                ttf.c:168  unlock_current_page              [   0.40592] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.40600] Glyph 74: 16x22 (16x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.40603] Locking glyph region: 000001E3F2435860 36 0 16 24
+font     D                ttf.c:168  unlock_current_page              [   0.40607] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.40613] Glyph 87: 16x21 (16x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.40616] Locking glyph region: 000001E3F2435860 52 0 16 24
+font     D                ttf.c:168  unlock_current_page              [   0.40619] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.40626] Glyph 72: 16x17 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [   0.40628] Locking glyph region: 000001E3F2435860 68 0 16 20
+font     D                ttf.c:168  unlock_current_page              [   0.40632] Unlocking page: 000001E3F2435860
+font     D                ttf.c:504  cache_glyph                      [   0.40636] Glyph 3 has zero size. (pixel mode 2)
+font     D                ttf.c:244  alloc_glyph_region               [   0.40644] Glyph 86: 16x17 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [   0.40646] Locking glyph region: 000001E3F2435860 84 0 16 20
+font     D                ttf.c:168  unlock_current_page              [   0.40650] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.40656] Glyph 88: 16x17 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [   0.40659] Locking glyph region: 000001E3F2435860 100 0 16 20
+font     D                ttf.c:168  unlock_current_page              [   0.40662] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.40668] Glyph 81: 16x17 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [   0.40671] Locking glyph region: 000001E3F2435860 116 0 16 20
+font     D                ttf.c:168  unlock_current_page              [   0.40674] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.40680] Glyph 82: 17x17 (20x20)
+font     D                ttf.c:288  alloc_glyph_region               [   0.40682] Locking glyph region: 000001E3F2435860 132 0 20 20
+font     D                ttf.c:168  unlock_current_page              [   0.40686] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.40692] Glyph 80: 18x17 (20x20)
+font     D                ttf.c:288  alloc_glyph_region               [   0.40695] Locking glyph region: 000001E3F2435860 152 0 20 20
+font     D                ttf.c:168  unlock_current_page              [   0.40698] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.40704] Glyph 29: 9x17 (12x20)
+font     D                ttf.c:288  alloc_glyph_region               [   0.40707] Locking glyph region: 000001E3F2435860 172 0 12 20
+font     D                ttf.c:168  unlock_current_page              [   0.40710] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.40730] Glyph 51: 16x22 (16x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.40733] Locking glyph region: 000001E3F2435860 184 0 16 24
+font     D                ttf.c:168  unlock_current_page              [   0.41177] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.41190] Glyph 68: 17x17 (20x20)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41193] Locking glyph region: 000001E3F2435860 200 0 20 20
+font     D                ttf.c:168  unlock_current_page              [   0.41199] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.41205] Glyph 79: 15x23 (16x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41208] Locking glyph region: 000001E3F2435860 220 0 16 24
+font     D                ttf.c:168  unlock_current_page              [   0.41212] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.41219] Glyph 89: 19x17 (20x20)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41222] Locking glyph region: 000001E3F2435860 236 0 20 20
+font     D                ttf.c:168  unlock_current_page              [   0.41226] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.41232] Glyph 85: 15x17 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41235] Locking glyph region: 000001E3F2435860 256 0 16 20
+font     D                ttf.c:168  unlock_current_page              [   0.41238] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.41245] Glyph 70: 16x17 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41248] Locking glyph region: 000001E3F2435860 272 0 16 20
+font     D                ttf.c:168  unlock_current_page              [   0.41251] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.41258] Glyph 11: 15x27 (16x28)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41261] Locking glyph region: 000001E3F2435860 288 0 16 28
+font     D                ttf.c:168  unlock_current_page              [   0.41265] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.41272] Glyph 83: 17x22 (20x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41274] Locking glyph region: 000001E3F2435860 304 0 20 24
+font     D                ttf.c:168  unlock_current_page              [   0.41278] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.41284] Glyph 15: 10x13 (12x16)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41287] Locking glyph region: 000001E3F2435860 324 0 12 16
+font     D                ttf.c:168  unlock_current_page              [   0.41311] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.41322] Glyph 55: 18x22 (20x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41324] Locking glyph region: 000001E3F2435860 336 0 20 24
+font     D                ttf.c:168  unlock_current_page              [   0.41329] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.41336] Glyph 36: 19x22 (20x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41338] Locking glyph region: 000001E3F2435860 356 0 20 24
+font     D                ttf.c:168  unlock_current_page              [   0.41343] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.41352] Glyph 37: 15x22 (16x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41355] Locking glyph region: 000001E3F2435860 376 0 16 24
+font     D                ttf.c:168  unlock_current_page              [   0.41361] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.41383] Glyph 12: 16x27 (16x28)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41389] Locking glyph region: 000001E3F2435860 392 0 16 28
+font     D                ttf.c:168  unlock_current_page              [   0.41401] Unlocking page: 000001E3F2435860
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.41471] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.41480] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.41482] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.41484] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.41486] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.41488] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.41489] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.41491] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [   0.41493] Fake format
+d3d      D         d3d_disp.cpp:1259 real_choose_bitmap_format        [   0.41495] Alpha doesn't match
+d3d      D         d3d_disp.cpp:1266 real_choose_bitmap_format        [   0.41497] Adapter format is 23
+d3d      D         d3d_disp.cpp:1269 real_choose_bitmap_format        [   0.41499] Found a format
+d3d      I         d3d_disp.cpp:2467 d3d_create_bitmap                [   0.41501] Chose bitmap format 9
+font     D                ttf.c:244  alloc_glyph_region               [   0.41576] Glyph 54: 13x17 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41581] Locking glyph region: 000001E3F30049B0 0 0 16 20
+font     D                ttf.c:168  unlock_current_page              [   0.41664] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   0.41676] Glyph 68: 14x14 (16x16)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41679] Locking glyph region: 000001E3F30049B0 16 0 16 16
+font     D                ttf.c:168  unlock_current_page              [   0.41683] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   0.41689] Glyph 89: 15x14 (16x16)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41692] Locking glyph region: 000001E3F30049B0 32 0 16 16
+font     D                ttf.c:168  unlock_current_page              [   0.41695] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   0.41701] Glyph 72: 13x14 (16x16)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41704] Locking glyph region: 000001E3F30049B0 48 0 16 16
+font     D                ttf.c:168  unlock_current_page              [   0.41707] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:504  cache_glyph                      [   0.41710] Glyph 3 has zero size. (pixel mode 2)
+font     D                ttf.c:244  alloc_glyph_region               [   0.41716] Glyph 81: 13x14 (16x16)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41718] Locking glyph region: 000001E3F30049B0 64 0 16 16
+font     D                ttf.c:168  unlock_current_page              [   0.41722] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   0.41727] Glyph 70: 13x14 (16x16)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41730] Locking glyph region: 000001E3F30049B0 80 0 16 16
+font     D                ttf.c:168  unlock_current_page              [   0.41733] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   0.41745] Glyph 82: 15x14 (16x16)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41748] Locking glyph region: 000001E3F30049B0 96 0 16 16
+font     D                ttf.c:168  unlock_current_page              [   0.41753] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   0.41759] Glyph 87: 14x17 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41762] Locking glyph region: 000001E3F30049B0 112 0 16 20
+font     D                ttf.c:168  unlock_current_page              [   0.41767] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   0.41774] Glyph 85: 12x14 (12x16)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41776] Locking glyph region: 000001E3F30049B0 128 0 12 16
+font     D                ttf.c:168  unlock_current_page              [   0.41780] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   0.41787] Glyph 71: 13x18 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41789] Locking glyph region: 000001E3F30049B0 140 0 16 20
+font     D                ttf.c:168  unlock_current_page              [   0.41794] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   0.41799] Glyph 4: 7x17 (8x20)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41802] Locking glyph region: 000001E3F30049B0 156 0 8 20
+font     D                ttf.c:168  unlock_current_page              [   0.41806] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   0.41812] Glyph 51: 13x17 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41814] Locking glyph region: 000001E3F30049B0 164 0 16 20
+font     D                ttf.c:168  unlock_current_page              [   0.41818] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   0.41825] Glyph 86: 13x14 (16x16)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41828] Locking glyph region: 000001E3F30049B0 180 0 16 16
+font     D                ttf.c:168  unlock_current_page              [   0.41832] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   0.41839] Glyph 76: 12x18 (12x20)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41842] Locking glyph region: 000001E3F30049B0 196 0 12 20
+font     D                ttf.c:168  unlock_current_page              [   0.41846] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   0.41852] Glyph 40: 13x17 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41854] Locking glyph region: 000001E3F30049B0 208 0 16 20
+font     D                ttf.c:168  unlock_current_page              [   0.41858] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   0.41865] Glyph 49: 13x17 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41868] Locking glyph region: 000001E3F30049B0 224 0 16 20
+font     D                ttf.c:168  unlock_current_page              [   0.41871] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   0.41877] Glyph 55: 15x17 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41879] Locking glyph region: 000001E3F30049B0 240 0 16 20
+font     D                ttf.c:168  unlock_current_page              [   0.41882] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   0.41888] Glyph 53: 14x17 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41890] Locking glyph region: 000001E3F30049B0 256 0 16 20
+font     D                ttf.c:168  unlock_current_page              [   0.41894] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   0.41900] Glyph 83: 13x18 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41902] Locking glyph region: 000001E3F30049B0 272 0 16 20
+font     D                ttf.c:168  unlock_current_page              [   0.41906] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   0.41913] Glyph 17: 8x7 (8x8)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41916] Locking glyph region: 000001E3F30049B0 288 0 8 8
+font     D                ttf.c:168  unlock_current_page              [   0.41919] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   0.41943] Glyph 58: 19x22 (20x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41947] Locking glyph region: 000001E3F2435860 408 0 20 24
+font     D                ttf.c:168  unlock_current_page              [   0.41953] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.41960] Glyph 54: 16x22 (16x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41962] Locking glyph region: 000001E3F2435860 428 0 16 24
+font     D                ttf.c:168  unlock_current_page              [   0.41966] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.41973] Glyph 18: 19x23 (20x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41975] Locking glyph region: 000001E3F2435860 444 0 20 24
+font     D                ttf.c:168  unlock_current_page              [   0.41979] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.41985] Glyph 32: 18x10 (20x12)
+font     D                ttf.c:288  alloc_glyph_region               [   0.41988] Locking glyph region: 000001E3F2435860 464 0 20 12
+font     D                ttf.c:168  unlock_current_page              [   0.41992] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.41998] Glyph 40: 15x22 (16x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.42000] Locking glyph region: 000001E3F2435860 484 0 16 24
+font     D                ttf.c:168  unlock_current_page              [   0.42004] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.42011] Glyph 38: 16x22 (16x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.42013] Locking glyph region: 000001E3F2435860 0 28 16 24
+font     D                ttf.c:168  unlock_current_page              [   0.42017] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.42024] Glyph 50: 18x22 (20x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.42027] Locking glyph region: 000001E3F2435860 16 28 20 24
+font     D                ttf.c:168  unlock_current_page              [   0.42031] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.42039] Glyph 61: 16x22 (16x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.42042] Locking glyph region: 000001E3F2435860 36 28 16 24
+font     D                ttf.c:168  unlock_current_page              [   0.42046] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.42053] Glyph 59: 18x22 (20x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.42055] Locking glyph region: 000001E3F2435860 52 28 20 24
+font     D                ttf.c:168  unlock_current_page              [   0.42059] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.42079] Glyph 48: 18x22 (20x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.42082] Locking glyph region: 000001E3F2435860 72 28 20 24
+font     D                ttf.c:168  unlock_current_page              [   0.42086] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.42093] Glyph 71: 16x23 (16x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.42125] Locking glyph region: 000001E3F2435860 92 28 16 24
+font     D                ttf.c:168  unlock_current_page              [   0.42132] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.42141] Glyph 73: 17x23 (20x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.42144] Locking glyph region: 000001E3F2435860 108 28 20 24
+font     D                ttf.c:168  unlock_current_page              [   0.42158] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.42165] Glyph 4: 8x22 (8x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.42167] Locking glyph region: 000001E3F2435860 128 28 8 24
+font     D                ttf.c:168  unlock_current_page              [   0.42171] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.42184] Glyph 53: 18x22 (20x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.42187] Locking glyph region: 000001E3F2435860 136 28 20 24
+font     D                ttf.c:168  unlock_current_page              [   0.42194] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.42200] Glyph 20: 16x22 (16x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.42202] Locking glyph region: 000001E3F2435860 156 28 16 24
+font     D                ttf.c:168  unlock_current_page              [   0.42206] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.42211] Glyph 23: 18x22 (20x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.42214] Locking glyph region: 000001E3F2435860 172 28 20 24
+font     D                ttf.c:168  unlock_current_page              [   0.42217] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.42224] Glyph 19: 18x22 (20x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.42227] Locking glyph region: 000001E3F2435860 192 28 20 24
+font     D                ttf.c:168  unlock_current_page              [   0.42231] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.42244] Glyph 49: 16x22 (16x24)
+font     D                ttf.c:288  alloc_glyph_region               [   0.42247] Locking glyph region: 000001E3F2435860 212 28 16 24
+font     D                ttf.c:168  unlock_current_page              [   0.42260] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   0.42269] Glyph 77: 14x28 (16x28)
+font     D                ttf.c:288  alloc_glyph_region               [   0.42271] Locking glyph region: 000001E3F2435860 228 28 16 28
+font     D                ttf.c:168  unlock_current_page              [   0.42275] Unlocking page: 000001E3F2435860
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [   0.42478] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [   0.42485] _al_d3d_sync_bitmap (video) ref count == 1
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [   0.42601] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [   0.42607] _al_d3d_sync_bitmap (video) ref count == 1
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [   0.42674] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [   0.42679] _al_d3d_sync_bitmap (video) ref count == 1
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [   0.42748] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [   0.42753] _al_d3d_sync_bitmap (video) ref count == 1
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [   0.42823] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [   0.42829] _al_d3d_sync_bitmap (video) ref count == 1
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [   0.42892] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [   0.42897] _al_d3d_sync_bitmap (video) ref count == 1
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [   0.42958] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [   0.42964] _al_d3d_sync_bitmap (video) ref count == 1
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [   0.43688] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [   0.43693] _al_d3d_sync_bitmap (video) ref count == 1
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [   0.43918] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [   0.43924] _al_d3d_sync_bitmap (video) ref count == 1
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [   0.44002] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [   0.44007] _al_d3d_sync_bitmap (video) ref count == 1
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [   0.44668] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [   0.44674] _al_d3d_sync_bitmap (video) ref count == 1
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [   0.45363] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [   0.45369] _al_d3d_sync_bitmap (video) ref count == 1
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [   0.45568] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [   0.45574] _al_d3d_sync_bitmap (video) ref count == 1
+font     D                ttf.c:244  alloc_glyph_region               [   4.32772] Glyph 90: 19x17 (20x20)
+font     D                ttf.c:288  alloc_glyph_region               [   4.32777] Locking glyph region: 000001E3F2435860 244 28 20 20
+font     D                ttf.c:168  unlock_current_page              [   4.32782] Unlocking page: 000001E3F2435860
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [   4.32938] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [   4.32950] _al_d3d_sync_bitmap (video) ref count == 1
+font     D                ttf.c:244  alloc_glyph_region               [   5.78602] Glyph 29: 8x14 (8x16)
+font     D                ttf.c:288  alloc_glyph_region               [   5.78612] Locking glyph region: 000001E3F30049B0 296 0 8 16
+font     D                ttf.c:168  unlock_current_page              [   5.78625] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   5.78646] Glyph 73: 14x18 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [   5.78653] Locking glyph region: 000001E3F30049B0 304 0 16 20
+font     D                ttf.c:168  unlock_current_page              [   5.78681] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   5.78690] Glyph 95: 7x18 (8x20)
+font     D                ttf.c:288  alloc_glyph_region               [   5.78692] Locking glyph region: 000001E3F30049B0 320 0 8 20
+font     D                ttf.c:168  unlock_current_page              [   5.78696] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   5.78701] Glyph 41: 12x17 (12x20)
+font     D                ttf.c:288  alloc_glyph_region               [   5.78704] Locking glyph region: 000001E3F30049B0 328 0 12 20
+font     D                ttf.c:168  unlock_current_page              [   5.78709] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   5.78715] Glyph 21: 13x17 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [   5.78717] Locking glyph region: 000001E3F30049B0 340 0 16 20
+font     D                ttf.c:168  unlock_current_page              [   5.78721] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   5.78729] Glyph 28: 14x17 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [   5.78731] Locking glyph region: 000001E3F30049B0 356 0 16 20
+font     D                ttf.c:168  unlock_current_page              [   5.78735] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   5.78741] Glyph 23: 15x17 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [   5.78744] Locking glyph region: 000001E3F30049B0 372 0 16 20
+font     D                ttf.c:168  unlock_current_page              [   5.78747] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   5.78753] Glyph 24: 13x17 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [   5.78756] Locking glyph region: 000001E3F30049B0 388 0 16 20
+font     D                ttf.c:168  unlock_current_page              [   5.78759] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   5.78771] Glyph 62: 12x21 (12x24)
+font     D                ttf.c:288  alloc_glyph_region               [   5.78774] Locking glyph region: 000001E3F30049B0 404 0 12 24
+font     D                ttf.c:168  unlock_current_page              [   5.78780] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   5.78786] Glyph 38: 13x17 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [   5.78788] Locking glyph region: 000001E3F30049B0 416 0 16 20
+font     D                ttf.c:168  unlock_current_page              [   5.78792] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   5.78797] Glyph 64: 12x21 (12x24)
+font     D                ttf.c:288  alloc_glyph_region               [   5.78799] Locking glyph region: 000001E3F30049B0 432 0 12 24
+font     D                ttf.c:168  unlock_current_page              [   5.78803] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   5.78809] Glyph 88: 13x14 (16x16)
+font     D                ttf.c:288  alloc_glyph_region               [   5.78812] Locking glyph region: 000001E3F30049B0 444 0 16 16
+font     D                ttf.c:168  unlock_current_page              [   5.78815] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   5.78822] Glyph 77: 12x22 (12x24)
+font     D                ttf.c:288  alloc_glyph_region               [   5.78824] Locking glyph region: 000001E3F30049B0 460 0 12 24
+font     D                ttf.c:168  unlock_current_page              [   5.78828] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   5.78835] Glyph 74: 13x18 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [   5.78837] Locking glyph region: 000001E3F30049B0 472 0 16 20
+font     D                ttf.c:168  unlock_current_page              [   5.78841] Unlocking page: 000001E3F30049B0
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [   5.78930] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [   5.78936] _al_d3d_sync_bitmap (video) ref count == 1
+font     D                ttf.c:244  alloc_glyph_region               [   7.59113] Glyph 42: 16x22 (16x24)
+font     D                ttf.c:288  alloc_glyph_region               [   7.59123] Locking glyph region: 000001E3F2435860 264 28 16 24
+font     D                ttf.c:168  unlock_current_page              [   7.59130] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   7.59154] Glyph 41: 15x22 (16x24)
+font     D                ttf.c:288  alloc_glyph_region               [   7.59157] Locking glyph region: 000001E3F2435860 280 28 16 24
+font     D                ttf.c:168  unlock_current_page              [   7.59190] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   7.59416] Glyph 79: 12x18 (12x20)
+font     D                ttf.c:288  alloc_glyph_region               [   7.59423] Locking glyph region: 000001E3F30049B0 488 0 12 20
+font     D                ttf.c:168  unlock_current_page              [   7.59428] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   7.59436] Glyph 80: 15x14 (16x16)
+font     D                ttf.c:288  alloc_glyph_region               [   7.59439] Locking glyph region: 000001E3F30049B0 0 24 16 16
+font     D                ttf.c:168  unlock_current_page              [   7.59473] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   7.59484] Glyph 18: 15x18 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [   7.59487] Locking glyph region: 000001E3F30049B0 16 24 16 20
+font     D                ttf.c:168  unlock_current_page              [   7.59492] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   7.59500] Glyph 61: 13x17 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [   7.59502] Locking glyph region: 000001E3F30049B0 32 24 16 20
+font     D                ttf.c:168  unlock_current_page              [   7.59507] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   7.59515] Glyph 59: 15x17 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [   7.59517] Locking glyph region: 000001E3F30049B0 48 24 16 20
+font     D                ttf.c:168  unlock_current_page              [   7.59522] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   7.59528] Glyph 32: 15x8 (16x8)
+font     D                ttf.c:288  alloc_glyph_region               [   7.59531] Locking glyph region: 000001E3F30049B0 64 24 16 8
+font     D                ttf.c:168  unlock_current_page              [   7.59535] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   7.59549] Glyph 34: 15x22 (16x24)
+font     D                ttf.c:288  alloc_glyph_region               [   7.59553] Locking glyph region: 000001E3F2435860 296 28 16 24
+font     D                ttf.c:168  unlock_current_page              [   7.59557] Unlocking page: 000001E3F2435860
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [   7.59612] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [   7.59617] _al_d3d_sync_bitmap (video) ref count == 1
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [   7.59968] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [   7.59973] _al_d3d_sync_bitmap (video) ref count == 1
+font     D                ttf.c:244  alloc_glyph_region               [   8.63957] Glyph 14: 15x13 (16x16)
+font     D                ttf.c:288  alloc_glyph_region               [   8.63962] Locking glyph region: 000001E3F30049B0 80 24 16 16
+font     D                ttf.c:168  unlock_current_page              [   8.63967] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [   8.63980] Glyph 21: 16x22 (16x24)
+font     D                ttf.c:288  alloc_glyph_region               [   8.63984] Locking glyph region: 000001E3F2435860 312 28 16 24
+font     D                ttf.c:168  unlock_current_page              [   8.63988] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [   8.63995] Glyph 24: 16x22 (16x24)
+font     D                ttf.c:288  alloc_glyph_region               [   8.63997] Locking glyph region: 000001E3F2435860 328 28 16 24
+font     D                ttf.c:168  unlock_current_page              [   8.64047] Unlocking page: 000001E3F2435860
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [   8.64121] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [   8.64128] _al_d3d_sync_bitmap (video) ref count == 1
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [   8.64495] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [   8.64501] _al_d3d_sync_bitmap (video) ref count == 1
+font     D                ttf.c:244  alloc_glyph_region               [  10.48911] Glyph 22: 13x17 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [  10.48915] Locking glyph region: 000001E3F30049B0 96 24 16 20
+font     D                ttf.c:168  unlock_current_page              [  10.48919] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [  10.48926] Glyph 19: 15x17 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [  10.48928] Locking glyph region: 000001E3F30049B0 112 24 16 20
+font     D                ttf.c:168  unlock_current_page              [  10.48945] Unlocking page: 000001E3F30049B0
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [  10.49004] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [  10.49010] _al_d3d_sync_bitmap (video) ref count == 1
+font     D                ttf.c:244  alloc_glyph_region               [  11.49007] Glyph 20: 13x17 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [  11.49013] Locking glyph region: 000001E3F30049B0 128 24 16 20
+font     D                ttf.c:168  unlock_current_page              [  11.49017] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [  11.49027] Glyph 25: 17x22 (20x24)
+font     D                ttf.c:288  alloc_glyph_region               [  11.49030] Locking glyph region: 000001E3F2435860 344 28 20 24
+font     D                ttf.c:168  unlock_current_page              [  11.49035] Unlocking page: 000001E3F2435860
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [  11.49106] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [  11.49111] _al_d3d_sync_bitmap (video) ref count == 1
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [  11.49497] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [  11.49502] _al_d3d_sync_bitmap (video) ref count == 1
+font     D                ttf.c:244  alloc_glyph_region               [  11.67283] Glyph 16: 11x5 (12x8)
+font     D                ttf.c:288  alloc_glyph_region               [  11.67287] Locking glyph region: 000001E3F30049B0 144 24 12 8
+font     D                ttf.c:168  unlock_current_page              [  11.67289] Unlocking page: 000001E3F30049B0
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [  11.67349] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [  11.67354] _al_d3d_sync_bitmap (video) ref count == 1
+font     D                ttf.c:244  alloc_glyph_region               [  12.63956] Glyph 27: 17x22 (20x24)
+font     D                ttf.c:288  alloc_glyph_region               [  12.63960] Locking glyph region: 000001E3F2435860 364 28 20 24
+font     D                ttf.c:168  unlock_current_page              [  12.63963] Unlocking page: 000001E3F2435860
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [  12.64011] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [  12.64014] _al_d3d_sync_bitmap (video) ref count == 1
+font     D                ttf.c:244  alloc_glyph_region               [  16.52332] Glyph 22: 16x22 (16x24)
+font     D                ttf.c:288  alloc_glyph_region               [  16.52335] Locking glyph region: 000001E3F2435860 384 28 16 24
+font     D                ttf.c:168  unlock_current_page              [  16.52338] Unlocking page: 000001E3F2435860
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [  16.52400] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [  16.52405] _al_d3d_sync_bitmap (video) ref count == 1
+font     D                ttf.c:244  alloc_glyph_region               [  21.23948] Glyph 44: 13x17 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [  21.23951] Locking glyph region: 000001E3F30049B0 156 24 16 20
+font     D                ttf.c:168  unlock_current_page              [  21.23954] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [  21.23960] Glyph 75: 13x18 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [  21.23962] Locking glyph region: 000001E3F30049B0 172 24 16 20
+font     D                ttf.c:168  unlock_current_page              [  21.23978] Unlocking page: 000001E3F30049B0
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [  21.23997] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [  21.23999] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [  21.24000] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [  21.24001] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [  21.24002] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [  21.24004] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [  21.24005] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [  21.24006] Fake format
+d3d      D         d3d_disp.cpp:1251 real_choose_bitmap_format        [  21.24007] Fake format
+d3d      D         d3d_disp.cpp:1259 real_choose_bitmap_format        [  21.24008] Alpha doesn't match
+d3d      D         d3d_disp.cpp:1266 real_choose_bitmap_format        [  21.24009] Adapter format is 23
+d3d      D         d3d_disp.cpp:1269 real_choose_bitmap_format        [  21.24011] Found a format
+d3d      I         d3d_disp.cpp:2467 d3d_create_bitmap                [  21.24012] Chose bitmap format 9
+font     D                ttf.c:244  alloc_glyph_region               [  21.24072] Glyph 51: 20x28 (20x28)
+font     D                ttf.c:288  alloc_glyph_region               [  21.24083] Locking glyph region: 000001E3F3009C90 0 0 20 28
+font     D                ttf.c:168  unlock_current_page              [  21.24166] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  21.24181] Glyph 79: 19x29 (20x32)
+font     D                ttf.c:288  alloc_glyph_region               [  21.24184] Locking glyph region: 000001E3F3009C90 20 0 20 32
+font     D                ttf.c:168  unlock_current_page              [  21.24189] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  21.24198] Glyph 68: 21x22 (24x24)
+font     D                ttf.c:288  alloc_glyph_region               [  21.24201] Locking glyph region: 000001E3F3009C90 40 0 24 24
+font     D                ttf.c:168  unlock_current_page              [  21.24207] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  21.24212] Glyph 87: 21x27 (24x28)
+font     D                ttf.c:288  alloc_glyph_region               [  21.24214] Locking glyph region: 000001E3F3009C90 64 0 24 28
+font     D                ttf.c:168  unlock_current_page              [  21.24218] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  21.24223] Glyph 73: 21x29 (24x32)
+font     D                ttf.c:288  alloc_glyph_region               [  21.24226] Locking glyph region: 000001E3F3009C90 88 0 24 32
+font     D                ttf.c:168  unlock_current_page              [  21.24230] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  21.24236] Glyph 82: 21x22 (24x24)
+font     D                ttf.c:288  alloc_glyph_region               [  21.24241] Locking glyph region: 000001E3F3009C90 112 0 24 24
+font     D                ttf.c:168  unlock_current_page              [  21.24245] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  21.24253] Glyph 85: 18x22 (20x24)
+font     D                ttf.c:288  alloc_glyph_region               [  21.24255] Locking glyph region: 000001E3F3009C90 136 0 20 24
+font     D                ttf.c:168  unlock_current_page              [  21.24259] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  21.24268] Glyph 80: 22x22 (24x24)
+font     D                ttf.c:288  alloc_glyph_region               [  21.24271] Locking glyph region: 000001E3F3009C90 156 0 24 24
+font     D                ttf.c:168  unlock_current_page              [  21.24275] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:504  cache_glyph                      [  21.24279] Glyph 3 has zero size. (pixel mode 2)
+font     D                ttf.c:244  alloc_glyph_region               [  21.24286] Glyph 54: 20x28 (20x28)
+font     D                ttf.c:288  alloc_glyph_region               [  21.24288] Locking glyph region: 000001E3F3009C90 180 0 20 28
+font     D                ttf.c:168  unlock_current_page              [  21.24294] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  21.24299] Glyph 72: 20x22 (20x24)
+font     D                ttf.c:288  alloc_glyph_region               [  21.24302] Locking glyph region: 000001E3F3009C90 200 0 20 24
+font     D                ttf.c:168  unlock_current_page              [  21.24305] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  21.24311] Glyph 70: 20x22 (20x24)
+font     D                ttf.c:288  alloc_glyph_region               [  21.24313] Locking glyph region: 000001E3F3009C90 220 0 20 24
+font     D                ttf.c:168  unlock_current_page              [  21.24316] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  21.24322] Glyph 71: 20x29 (20x32)
+font     D                ttf.c:288  alloc_glyph_region               [  21.24324] Locking glyph region: 000001E3F3009C90 240 0 20 32
+font     D                ttf.c:168  unlock_current_page              [  21.24328] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  21.24334] Glyph 86: 19x22 (20x24)
+font     D                ttf.c:288  alloc_glyph_region               [  21.24336] Locking glyph region: 000001E3F3009C90 260 0 20 24
+font     D                ttf.c:168  unlock_current_page              [  21.24339] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  21.24345] Glyph 69: 20x29 (20x32)
+font     D                ttf.c:288  alloc_glyph_region               [  21.24347] Locking glyph region: 000001E3F3009C90 280 0 20 32
+font     D                ttf.c:168  unlock_current_page              [  21.24360] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  21.24368] Glyph 4: 9x28 (12x28)
+font     D                ttf.c:288  alloc_glyph_region               [  21.24370] Locking glyph region: 000001E3F3009C90 300 0 12 28
+font     D                ttf.c:168  unlock_current_page              [  21.24374] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  21.24388] Glyph 50: 22x28 (24x28)
+font     D                ttf.c:288  alloc_glyph_region               [  21.24390] Locking glyph region: 000001E3F3009C90 312 0 24 28
+font     D                ttf.c:168  unlock_current_page              [  21.24395] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  21.24400] Glyph 55: 23x28 (24x28)
+font     D                ttf.c:288  alloc_glyph_region               [  21.24401] Locking glyph region: 000001E3F3009C90 336 0 24 28
+font     D                ttf.c:168  unlock_current_page              [  21.24404] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  21.24408] Glyph 40: 18x28 (20x28)
+font     D                ttf.c:288  alloc_glyph_region               [  21.24410] Locking glyph region: 000001E3F3009C90 360 0 20 28
+font     D                ttf.c:168  unlock_current_page              [  21.24412] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  21.24416] Glyph 56: 21x28 (24x28)
+font     D                ttf.c:288  alloc_glyph_region               [  21.24418] Locking glyph region: 000001E3F3009C90 380 0 24 28
+font     D                ttf.c:168  unlock_current_page              [  21.24421] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  21.24426] Glyph 53: 21x28 (24x28)
+font     D                ttf.c:288  alloc_glyph_region               [  21.24429] Locking glyph region: 000001E3F3009C90 404 0 24 28
+font     D                ttf.c:168  unlock_current_page              [  21.24433] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  21.24438] Glyph 83: 20x29 (20x32)
+font     D                ttf.c:288  alloc_glyph_region               [  21.24442] Locking glyph region: 000001E3F3009C90 428 0 20 32
+font     D                ttf.c:168  unlock_current_page              [  21.24445] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  21.24450] Glyph 88: 19x22 (20x24)
+font     D                ttf.c:288  alloc_glyph_region               [  21.24451] Locking glyph region: 000001E3F3009C90 448 0 20 24
+font     D                ttf.c:168  unlock_current_page              [  21.24454] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  21.24458] Glyph 14: 22x20 (24x20)
+font     D                ttf.c:288  alloc_glyph_region               [  21.24460] Locking glyph region: 000001E3F3009C90 468 0 24 20
+font     D                ttf.c:168  unlock_current_page              [  21.24462] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  21.24467] Glyph 21: 19x28 (20x28)
+font     D                ttf.c:288  alloc_glyph_region               [  21.24469] Locking glyph region: 000001E3F3009C90 492 0 20 28
+font     D                ttf.c:168  unlock_current_page              [  21.24472] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  21.24477] Glyph 19: 22x28 (24x28)
+font     D                ttf.c:288  alloc_glyph_region               [  21.24479] Locking glyph region: 000001E3F3009C90 0 32 24 28
+font     D                ttf.c:168  unlock_current_page              [  21.24482] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  21.24490] Glyph 81: 19x22 (20x24)
+font     D                ttf.c:288  alloc_glyph_region               [  21.24492] Locking glyph region: 000001E3F3009C90 24 32 20 24
+font     D                ttf.c:168  unlock_current_page              [  21.24494] Unlocking page: 000001E3F3009C90
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [  21.24532] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [  21.24534] _al_d3d_sync_bitmap (video) ref count == 1
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [  21.24751] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [  21.24756] _al_d3d_sync_bitmap (video) ref count == 1
+font     D                ttf.c:244  alloc_glyph_region               [  21.50596] Glyph 26: 17x22 (20x24)
+font     D                ttf.c:288  alloc_glyph_region               [  21.50599] Locking glyph region: 000001E3F2435860 400 28 20 24
+font     D                ttf.c:168  unlock_current_page              [  21.50603] Unlocking page: 000001E3F2435860
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [  21.50681] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [  21.50687] _al_d3d_sync_bitmap (video) ref count == 1
+font     D                ttf.c:244  alloc_glyph_region               [  22.45808] Glyph 37: 13x17 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [  22.45813] Locking glyph region: 000001E3F30049B0 188 24 16 20
+font     D                ttf.c:168  unlock_current_page              [  22.45820] Unlocking page: 000001E3F30049B0
+font     D                ttf.c:244  alloc_glyph_region               [  22.45825] Glyph 50: 15x17 (16x20)
+font     D                ttf.c:288  alloc_glyph_region               [  22.45827] Locking glyph region: 000001E3F30049B0 204 24 16 20
+font     D                ttf.c:168  unlock_current_page              [  22.45852] Unlocking page: 000001E3F30049B0
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [  22.45946] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [  22.45955] _al_d3d_sync_bitmap (video) ref count == 1
+font     D                ttf.c:244  alloc_glyph_region               [  26.69076] Glyph 28: 18x22 (20x24)
+font     D                ttf.c:288  alloc_glyph_region               [  26.69080] Locking glyph region: 000001E3F2435860 420 28 20 24
+font     D                ttf.c:168  unlock_current_page              [  26.69083] Unlocking page: 000001E3F2435860
+font     D                ttf.c:244  alloc_glyph_region               [  26.69134] Glyph 37: 29x46 (32x48)
+font     D                ttf.c:288  alloc_glyph_region               [  26.69139] Locking glyph region: 000001E3F2435C40 232 0 32 48
+font     D                ttf.c:168  unlock_current_page              [  26.69148] Unlocking page: 000001E3F2435C40
+font     D                ttf.c:244  alloc_glyph_region               [  26.69170] Glyph 54: 30x48 (32x48)
+font     D                ttf.c:288  alloc_glyph_region               [  26.69173] Locking glyph region: 000001E3F2435C40 264 0 32 48
+font     D                ttf.c:168  unlock_current_page              [  26.69242] Unlocking page: 000001E3F2435C40
+font     D                ttf.c:244  alloc_glyph_region               [  26.69250] Glyph 39: 31x46 (32x48)
+font     D                ttf.c:288  alloc_glyph_region               [  26.69252] Locking glyph region: 000001E3F2435C40 296 0 32 48
+font     D                ttf.c:168  unlock_current_page              [  26.69260] Unlocking page: 000001E3F2435C40
+font     D                ttf.c:244  alloc_glyph_region               [  26.69266] Glyph 40: 27x46 (28x48)
+font     D                ttf.c:288  alloc_glyph_region               [  26.69271] Locking glyph region: 000001E3F2435C40 328 0 28 48
+font     D                ttf.c:168  unlock_current_page              [  26.69277] Unlocking page: 000001E3F2435C40
+font     D                ttf.c:244  alloc_glyph_region               [  26.69283] Glyph 55: 35x46 (36x48)
+font     D                ttf.c:288  alloc_glyph_region               [  26.69286] Locking glyph region: 000001E3F2435C40 356 0 36 48
+font     D                ttf.c:168  unlock_current_page              [  26.69293] Unlocking page: 000001E3F2435C40
+font     D                ttf.c:244  alloc_glyph_region               [  26.69304] Glyph 24: 20x28 (20x28)
+font     D                ttf.c:288  alloc_glyph_region               [  26.69306] Locking glyph region: 000001E3F3009C90 44 32 20 28
+font     D                ttf.c:168  unlock_current_page              [  26.69309] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  26.69315] Glyph 29: 10x22 (12x24)
+font     D                ttf.c:288  alloc_glyph_region               [  26.69317] Locking glyph region: 000001E3F3009C90 64 32 12 24
+font     D                ttf.c:168  unlock_current_page              [  26.69342] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  26.69350] Glyph 28: 21x28 (24x28)
+font     D                ttf.c:288  alloc_glyph_region               [  26.69352] Locking glyph region: 000001E3F3009C90 76 32 24 28
+font     D                ttf.c:168  unlock_current_page              [  26.69359] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  26.69367] Glyph 20: 20x28 (20x28)
+font     D                ttf.c:288  alloc_glyph_region               [  26.69373] Locking glyph region: 000001E3F3009C90 100 32 20 28
+font     D                ttf.c:168  unlock_current_page              [  26.69382] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  26.69416] Glyph 49: 31x46 (32x48)
+font     D                ttf.c:288  alloc_glyph_region               [  26.69419] Locking glyph region: 000001E3F2435C40 392 0 32 48
+font     D                ttf.c:168  unlock_current_page              [  26.69425] Unlocking page: 000001E3F2435C40
+font     D                ttf.c:244  alloc_glyph_region               [  26.69433] Glyph 57: 37x46 (40x48)
+font     D                ttf.c:288  alloc_glyph_region               [  26.69435] Locking glyph region: 000001E3F2435C40 424 0 40 48
+font     D                ttf.c:168  unlock_current_page              [  26.69445] Unlocking page: 000001E3F2435C40
+font     D                ttf.c:244  alloc_glyph_region               [  26.69451] Glyph 41: 27x46 (28x48)
+font     D                ttf.c:288  alloc_glyph_region               [  26.69455] Locking glyph region: 000001E3F2435C40 464 0 28 48
+font     D                ttf.c:168  unlock_current_page              [  26.69460] Unlocking page: 000001E3F2435C40
+font     D                ttf.c:244  alloc_glyph_region               [  26.69467] Glyph 47: 28x46 (28x48)
+font     D                ttf.c:288  alloc_glyph_region               [  26.69469] Locking glyph region: 000001E3F2435C40 492 0 28 48
+font     D                ttf.c:168  unlock_current_page              [  26.69473] Unlocking page: 000001E3F2435C40
+font     D                ttf.c:244  alloc_glyph_region               [  26.69480] Glyph 52: 36x58 (36x60)
+font     D                ttf.c:288  alloc_glyph_region               [  26.69482] Locking glyph region: 000001E3F2435C40 520 0 36 60
+font     D                ttf.c:168  unlock_current_page              [  26.69489] Unlocking page: 000001E3F2435C40
+font     D                ttf.c:244  alloc_glyph_region               [  26.69495] Glyph 56: 31x47 (32x48)
+font     D                ttf.c:288  alloc_glyph_region               [  26.69497] Locking glyph region: 000001E3F2435C40 556 0 32 48
+font     D                ttf.c:168  unlock_current_page              [  26.69502] Unlocking page: 000001E3F2435C40
+font     D                ttf.c:244  alloc_glyph_region               [  26.69513] Glyph 21: 30x47 (32x48)
+font     D                ttf.c:288  alloc_glyph_region               [  26.69516] Locking glyph region: 000001E3F2435C40 588 0 32 48
+font     D                ttf.c:168  unlock_current_page              [  26.69521] Unlocking page: 000001E3F2435C40
+font     D                ttf.c:244  alloc_glyph_region               [  26.69531] Glyph 37: 19x28 (20x28)
+font     D                ttf.c:288  alloc_glyph_region               [  26.69534] Locking glyph region: 000001E3F3009C90 120 32 20 28
+font     D                ttf.c:168  unlock_current_page              [  26.69537] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  26.69543] Glyph 76: 18x29 (20x32)
+font     D                ttf.c:288  alloc_glyph_region               [  26.69545] Locking glyph region: 000001E3F3009C90 140 32 20 32
+font     D                ttf.c:168  unlock_current_page              [  26.69550] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  26.69558] Glyph 16: 17x6 (20x8)
+font     D                ttf.c:288  alloc_glyph_region               [  26.69560] Locking glyph region: 000001E3F3009C90 160 32 20 8
+font     D                ttf.c:168  unlock_current_page              [  26.69564] Unlocking page: 000001E3F3009C90
+font     D                ttf.c:244  alloc_glyph_region               [  26.69578] Glyph 91: 15x14 (16x16)
+font     D                ttf.c:288  alloc_glyph_region               [  26.69580] Locking glyph region: 000001E3F30049B0 220 24 16 16
+font     D                ttf.c:168  unlock_current_page              [  26.69583] Unlocking page: 000001E3F30049B0
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [  26.69636] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [  26.69641] _al_d3d_sync_bitmap (video) ref count == 1
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [  26.70362] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [  26.70368] _al_d3d_sync_bitmap (video) ref count == 1
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [  26.70584] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [  26.70594] _al_d3d_sync_bitmap (video) ref count == 1
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [  26.70741] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [  26.70747] _al_d3d_sync_bitmap (video) ref count == 1
+dtor     D               dtor.c:227  _al_unregister_destructor        [  35.94581] removed dtor for bitmap 000001E3F232CE80
+dtor     D               dtor.c:227  _al_unregister_destructor        [  35.94692] removed dtor for bitmap 000001E3F232C6C0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  35.94740] removed dtor for bitmap 000001E3ED58CAF0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  35.94761] removed dtor for bitmap 000001E3ED58CED0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  35.94767] removed dtor for bitmap 000001E3ED58D4A0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  35.94772] removed dtor for bitmap 000001E3F232E1E0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  35.94777] removed dtor for bitmap 000001E3F232D260
+dtor     D               dtor.c:227  _al_unregister_destructor        [  35.94782] removed dtor for bitmap 000001E3F232DE00
+dtor     D               dtor.c:227  _al_unregister_destructor        [  35.94786] removed dtor for bitmap 000001E3F232CC90
+dtor     D               dtor.c:227  _al_unregister_destructor        [  35.94790] removed dtor for bitmap 000001E3F232DA20
+dtor     D               dtor.c:227  _al_unregister_destructor        [  35.94893] removed dtor for ttf_font 000001E3F23A7FB0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  35.94982] removed dtor for ttf_font 000001E3F23A8090
+dtor     D               dtor.c:227  _al_unregister_destructor        [  35.95103] removed dtor for ttf_font 000001E3F23A8170
+dtor     D               dtor.c:227  _al_unregister_destructor        [  35.95160] removed dtor for ttf_font 000001E3F23A7920
+d3d      I         d3d_disp.cpp:964  d3d_destroy_display              [  35.95207] destroying display 000001E3EB87EE30 (current 0000000000000000)
+d3d      D         d3d_disp.cpp:948  d3d_destroy_display_internals    [  35.95614] waiting for display 000001E3EB87EE30's thread to end
+d3d      W         d3d_disp.cpp:650  d3d_destroy_device               [  35.96885] d3d_destroy_device: ref count not 0
+d3d      W         d3d_disp.cpp:650  d3d_destroy_device               [  35.96891] d3d_destroy_device: ref count not 0
+d3d      I         d3d_disp.cpp:1611 d3d_display_thread_proc          [  35.99465] d3d display thread exits
+dtor     D               dtor.c:227  _al_unregister_destructor        [  35.99713] removed dtor for queue 000001E3EB9083D0
+dtor     D               dtor.c:116  _al_run_destructors              [  35.99727] calling dtor for timer 000001E3EB8D0950, func 00007FFAD0041055
+dtor     D               dtor.c:227  _al_unregister_destructor        [  35.99736] removed dtor for timer 000001E3EB8D0950

@@ -1,0 +1,37 @@
+# Fase 1
+NOME        Floresta Sombria
+BG2         png/cenario2_0.jpg
+SLIME_VEL   2.5
+BOSS_VIDA   150
+BOSS_VEL    2.5
+
+# Plataformas: PLAT tipo x y tiles
+PLAT 1 100 560 5
+PLAT 2 425 480 6
+PLAT 1 1040 400 5
+PLAT 2 200 350 4
+
+# Plataforma secreta: PLAT_SEC x y tiles
+PLAT_SEC 620 300 3
+
+# Slimes: SLIME tipo x y_offset min max
+SLIME 0 150 0 50 380
+SLIME 1 520 0 425 713
+SLIME 0 860 0 700 1080
+SLIME 1 1280 0 1040 1280
+
+# Moedas: COIN x y
+COIN 130 470
+COIN 350 380
+COIN 500 460
+COIN 700 300
+COIN 900 380
+COIN 1100 460
+COIN 1300 380
+
+# Frutas: FRUIT tipo x y
+FRUIT 0 250 460
+FRUIT 1 600 350
+FRUIT 2 950 420
+FRUIT 3 1200 350
+FRUIT 0 400 300
